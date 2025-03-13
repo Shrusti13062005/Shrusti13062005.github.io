@@ -1,0 +1,49 @@
+.assessment-textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+.risk-score-high {
+    color: #ef4444;
+}
+
+.risk-score-medium {
+    color: #f59e0b;
+}
+
+.risk-score-low {
+    color: #10b981;
+}
+
+.warning-banner {
+    background-color: #fee2e2;
+    border-left: 4px solid #ef4444;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 90%;
+    width: 500px;
+    text-align: center;
+}
+
+.blur-background {
+    filter: blur(5px);
+    pointer-events: none;
+    user-select: none;
+}

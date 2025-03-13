@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online assessment interface with risk-based proctoring system">
+    <meta name="keywords" content="online assessment, proctoring, exam monitoring, risk assessment, MCQ, quiz">
+    <meta property="og:title" content="Online Assessment Interface">
+    <meta property="og:description" content="Secure online assessment platform with advanced proctoring capabilities">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Online Assessment Interface">
+    <meta name="twitter:description" content="Secure online assessment platform with advanced proctoring capabilities">
+    <title>Online Assessment Interface</title>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/assessment.css" rel="stylesheet">
+    <link href="styles/mcq.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/RiskScore.js"></script>
+    <script type="text/babel" src="components/Warning.js"></script>
+    <script type="text/babel" src="components/AssessmentArea.js"></script>
+    <script type="text/babel" src="components/TabSwitchModal.js"></script>
+    <script type="text/babel" src="components/ChallengeModal.js"></script>
+    <script type="text/babel" src="components/MCQQuestion.js"></script>
+    <script type="text/babel" src="components/MCQNavigation.js"></script>
+    <script type="text/babel" src="components/Timer.js"></script>
+    <script type="text/babel" src="utils/behaviorTracker.js"></script>
+    <script type="text/babel" src="utils/riskCalculator.js"></script>
+    <script type="text/babel" src="utils/environmentChecker.js"></script>
+    <script type="text/babel" src="utils/integrityChecker.js"></script>
+    <script type="text/babel" src="utils/challengeGenerator.js"></script>
+    <script type="text/babel" src="utils/mcqData.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
